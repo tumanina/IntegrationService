@@ -1,0 +1,7 @@
+IntegrationService/IntegrationService.API/bin/
+IntegrationService/IntegrationService.API/obj/
+IntegrationService/IntegrationService.Business/obj/
+IntegrationService/IntegrationService.EventHubProcessing/obj/
+IntegrationService/IntegrationService.Repositories/obj/
+IntegrationService/packages/
+IntegrationService/Tests/Unit/IntegrationService.Unit.Tests/obj/

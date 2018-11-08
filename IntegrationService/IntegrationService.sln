@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationService.API", "IntegrationService.API\IntegrationService.API.csproj", "{71456989-FAF8-45E5-9857-850775AEDB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationService.Business", "IntegrationService.Business\IntegrationService.Business.csproj", "{E61E170C-D9BE-40B7-B5B2-E15341B676ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationService.Repositories", "IntegrationService.Repositories\IntegrationService.Repositories.csproj", "{87594B55-830A-43F8-B218-A115F35F1FFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B9145B18-BA29-4119-815F-7E0FC789DE23}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D8591D18-3FCD-40DD-B863-5F4E148FC236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{A2E8478A-83FE-46CB-9D38-C5CF5C3A75FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{5AAD8F20-C3FC-4186-9D83-80A5EFC5E6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationService.EventHubProcessing", "IntegrationService.EventHubProcessing\IntegrationService.EventHubProcessing.csproj", "{3B6091C7-81CD-460B-BCBF-38118E2403D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationService.Unit.Tests", "Tests\Unit\IntegrationService.Unit.Tests\IntegrationService.Unit.Tests.csproj", "{628C5B12-25F8-48B2-AC8F-30D5EFAB007A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71456989-FAF8-45E5-9857-850775AEDB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71456989-FAF8-45E5-9857-850775AEDB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71456989-FAF8-45E5-9857-850775AEDB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71456989-FAF8-45E5-9857-850775AEDB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61E170C-D9BE-40B7-B5B2-E15341B676ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61E170C-D9BE-40B7-B5B2-E15341B676ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61E170C-D9BE-40B7-B5B2-E15341B676ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61E170C-D9BE-40B7-B5B2-E15341B676ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87594B55-830A-43F8-B218-A115F35F1FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87594B55-830A-43F8-B218-A115F35F1FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87594B55-830A-43F8-B218-A115F35F1FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87594B55-830A-43F8-B218-A115F35F1FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6091C7-81CD-460B-BCBF-38118E2403D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6091C7-81CD-460B-BCBF-38118E2403D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6091C7-81CD-460B-BCBF-38118E2403D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6091C7-81CD-460B-BCBF-38118E2403D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628C5B12-25F8-48B2-AC8F-30D5EFAB007A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628C5B12-25F8-48B2-AC8F-30D5EFAB007A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628C5B12-25F8-48B2-AC8F-30D5EFAB007A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628C5B12-25F8-48B2-AC8F-30D5EFAB007A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2E8478A-83FE-46CB-9D38-C5CF5C3A75FC} = {D8591D18-3FCD-40DD-B863-5F4E148FC236}
+		{5AAD8F20-C3FC-4186-9D83-80A5EFC5E6B8} = {D8591D18-3FCD-40DD-B863-5F4E148FC236}
+		{628C5B12-25F8-48B2-AC8F-30D5EFAB007A} = {A2E8478A-83FE-46CB-9D38-C5CF5C3A75FC}
+	EndGlobalSection
+EndGlobal
