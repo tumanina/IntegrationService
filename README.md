@@ -1,4 +1,5 @@
 It's prototype of integration between old and new systems.
+
 Workflow:
 1. When in old system ('Admin') staff of other systems changes any information (product quantity, name, price, etc) event about it send to message queue ('event hub' in company terminology).
 2. IntegrationService listen that event hub, read the event and asked old system for additional information if it nessesary.
